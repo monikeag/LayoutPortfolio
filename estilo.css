@@ -1,0 +1,236 @@
+/* Estilo global */
+* {
+    max-width: 1920px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+/* FONTES | H1 e P */
+h1,
+h2 {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 40px;
+}
+
+P {
+    font-family: "Comfortaa";
+    font-size: 18px;
+    font-weight: 500;
+    border-right: #A9DD10;
+    border-bottom: #302D85;
+
+}
+
+h3 {
+    font-family: "Comfortaa", serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+
+/* TOPO SITE */
+.background {
+    background-image: url("/Imagens/Background-Topoweb.webp");
+    width: 1920px;
+    height: 575.39px;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.background h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.div p {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.background span {
+    color: #A9DD10;
+}
+
+.botao1 {
+    background-color: #A9DD10;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Comfortaa";
+    font-weight: 800;
+    color: #302D85;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+/* O QUE FAZEMOS */
+h2 {
+    color: #302D85;
+}
+
+.o-que-fazemos-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 60px 80px 60px;
+
+
+}
+
+.itens-fazemos {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.bloco-fazemos {
+    padding: 20px;
+    border-style: groove;
+    border-width: 0 10px 10px 0;
+    border-radius: 20px;
+
+    border-color: #302D85;
+}
+
+.bloco-fazemos h3 {
+    text-align: center;
+}
+
+.botao2a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.botao-2 {
+    background-color: #A9DD10;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Comfortaa";
+    font-weight: 800;
+    color: #302D85;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 5px 3px 0;
+
+}
+
+/* SEÇÃO QUEM SOU */
+.titulo-quem-sou {
+    color: #ffffff;
+}
+
+.quem-sou-eu {
+    display: flex;
+    gap: 100px;
+    padding: 50px 0 50px 30px;
+}
+
+.quem-sou-text {
+    padding: 40px 50px 60px 40px;
+    background-color: #302D85;
+    color: #ffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.quem-sou-text h2 {
+    font-size: 70px;
+    justify-items: flex-start;
+}
+
+.quem-sou-text p {
+    font-size: 20px;
+    padding: 30px 500px 20px 0;
+    justify-items: flex-start;
+}
+
+.icones {
+    display: flex;
+    gap: 15px;
+}
+
+/* PORTFOLIO */
+.portfolio-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 60px 80px 60px;
+
+}
+
+.box-portfolio {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    padding: 20px 80px 20px 80px;
+
+
+}
+
+.img-portfolio {
+    display: flex;
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 5px #cacaca65;
+    border-radius: 8px;
+    transition: 8s;
+    cursor: pointer;
+}
+
+.img-portfolio:hover {
+    background-position: 100% 100%;
+
+}
+
+.botao3 {
+    background-color: #302D85;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Comfortaa";
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 5px 3px 0;
+
+}
+
+.botao3a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
